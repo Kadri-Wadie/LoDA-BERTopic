@@ -32,8 +32,8 @@ The project consists of the following steps:
 ## Setup
 
 1. Clone the repository:
-   git clone https://github.com/Kadri-Wadie/LoDA-BERTopic.git
-   cd loda-bertopic
+   git clone https://github.com/Kadri-Wadie/LoDA-BERTopic.git , 
+   then cd loda-bertopic
 2. Install the required dependencies:
    !pip install -r requirements.txt
 
