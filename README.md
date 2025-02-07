@@ -16,7 +16,7 @@ embeddings for improved topic coherence and diversity in specialized discussions
    - [Fine-Tuning with LoRA](#fine-tuning-with-lora)
    - [Topic Modeling](#topic-modeling)
 5. [Results](#results)
-6. [License](#license)
+
 
 ---
 
@@ -27,18 +27,6 @@ The project consists of the following steps:
 2. **Reddit Post Preprocessing**: Clean and preprocess the collected Reddit posts.
 3. **Fine-Tuning with LoRA**: Fine-tune the `all-MiniLM-L6-v2` sentence transformer using LoRA on Multi-Head Self-Attention (MHSA) and on both (MHSA) and Feed-Forward Network (FFN) layers.
 4. **Topic Modeling**: Apply BERTopic, LDA, and SeqLDA to the preprocessed data and evaluate their performance using topic coherence (C_v, UMass) and topic diversity (TD).
-
----
-
-## Repository Structure
-loda-bertopic/
-├── data/ # Datasets
-├── scripts/ # Code scripts
-├── models/ # Saved models
-├── results/ # Results and visualizations
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
-
 
 ---
 
@@ -79,13 +67,12 @@ loda-bertopic/
   *SeqLDA:
    python scripts/seqlda_modeling.py
    
-5. Results
+## Results
    The results, including coherence scores (C_v, UMass),
    topic diversity (TD), and visualizations, are saved
    in the results/ folder.
    
-6. License
-  This project is licensed under the MIT License.
+
    
 
    
