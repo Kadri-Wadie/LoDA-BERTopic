@@ -8,9 +8,8 @@ embeddings for improved topic coherence and diversity in specialized discussions
 
 ## Table of Contents
 1. [Overview](#overview)
-2. [Repository Structure](#repository-structure)
-3. [Setup](#setup)
-4. [Usage](#usage)
+2. [Setup](#setup)
+3. [Usage](#usage)
    - [Reddit Post Collection](#reddit-post-collection)
    - [Reddit Post Preprocessing](#reddit-post-preprocessing)
    - [Fine-Tuning with LoRA](#fine-tuning-with-lora)
