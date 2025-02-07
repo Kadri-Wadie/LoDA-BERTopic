@@ -1,6 +1,6 @@
 # Reddit Data Collection
 
-This repository contains a Python script to collect Reddit posts and comments from the `climatechange` subreddit.
+This subsection contains a Python script to collect Reddit posts and comments from the `climatechange` subreddit.
 
 Steps to Prepare for Reddit API Access
 1. Create a Reddit Account
